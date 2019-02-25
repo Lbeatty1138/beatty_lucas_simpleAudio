@@ -1,10 +1,11 @@
 (() => {
 
-	let aud =		document.querSelector('audio'),
-		play =		document.querSelector('#playButton'),
-		pause =		document.querSelector('#pauseButton'),
-		rewind =	document.querSelector('#rewindButton');
+	let aud =		document.querySelector('audio'),
+		play =		document.querySelector('#playButton'),
+		pause =		document.querySelector('#pauseButton'),
+		rewind =	document.querySelector('#rewindButton');
 		// , lets it know that there are more selectors and ; tells it that it's the end
+		// bah Spelling is hard Kat...
 
 		// write the functions for the audio element
 		function playAudio () {
