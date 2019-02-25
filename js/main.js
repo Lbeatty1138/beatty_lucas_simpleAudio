@@ -16,9 +16,15 @@
 			aud.pause(true);
 		}
 
+		// function rewindAudio() {
+		// 	aud.currentTime (0)
+		// }
+		// this isnt right because of a bad function
+
 		function rewindAudio() {
 			aud.currentTime = 0 ;
 		}
+		//  ^ if the console comes up with Nul on a function i.e. (0) try giving it a value = # ;
 
 		// add event handling
 		play.addEventListener("click", playAudio);
