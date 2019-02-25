@@ -28,7 +28,8 @@
 		//  ^ if the console comes up with Nul on a function i.e. (0) try giving it a value = # ;
 
 		function swapSource() {
-			let currentTrack = this.dataset.curenttrack;
+			//debugger;
+			let currentTrack = this.dataset.currenttrack;
 
 			aud.src = `audio/${currentTrack}`;
 			aud.load();
